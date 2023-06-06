@@ -35,6 +35,10 @@ Ejecute el siguiente comando para inicializar las migraciones y los seeder. No o
     $ php artisan migrate --seed
 
 
+Renombra el archivo .env-example a .env. luego que aver hecho eso pones el nombre de la base de datos, y generas una nueva key para el proyecto
+
+    $php artisan key:generate
+
 Finalmente, sirva la aplicación.
 
     $ php artisan serve
